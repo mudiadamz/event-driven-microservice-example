@@ -1,3 +1,6 @@
+# Event-driven Microservices using Spring Boot and Apache Kafka
+This is the full event driven microservice example using spring boot codes with Apache Kafka as messaging broker. You can clone this full code and test it yourself, understand better what microservice event driven software design. Blog post https://www.techgalery.com/2021/07/event-driven-microservice-spring-boot.html
+
 ## To run your kafka server
 
 docker-compose up -d
