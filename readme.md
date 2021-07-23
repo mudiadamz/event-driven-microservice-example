@@ -7,14 +7,15 @@ docker-compose up -d
 docker-compose rm -fsv
 
 ## To run consumer-service
-cd consumer-service
+cd consumer-service  
 mvnw spring-boot:run
 
 ## To run producer-service
-cd consumer-service
+
+cd consumer-service  
 mvnw spring-boot:run
 
-## hit POST test_api
+## Hit POST test_api
 
 ``
 curl --location --request POST 'http://localhost:8080/test_api' \
@@ -28,3 +29,11 @@ curl --location --request POST 'http://localhost:8080/test_api' \
 See the log at consumer-service microservice, that's the consumer event that is firing.
 
 You can also use kafka tool to view the message/logs/event that being produce by the application, download kafka tool here https://kafkatool.com/download.html
+
+## Screenshoots
+
+- postman  
+  ![alt text](https://github.com/mudiadamz/event-driven-microservice-example/blob/main/postman.jpg?raw=true)
+- kafka tool  
+  ![alt text](https://github.com/mudiadamz/event-driven-microservice-example/blob/main/kafka-tool.jpg?raw=true)
+
