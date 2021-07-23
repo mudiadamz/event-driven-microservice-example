@@ -17,7 +17,12 @@ mvnw spring-boot:run
 ## hit POST test_api
 
 ``
-aaa
+curl --location --request POST 'http://localhost:8080/test_api' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"dataKey": "kafkaKey123",
+"dataBody": "Hello world kafka messaging!"
+}'
 ``
 
 See the log at consumer-service microservice, that's the consumer event that is firing.
