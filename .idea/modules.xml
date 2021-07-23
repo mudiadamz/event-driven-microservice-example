@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer-service/consumer-service.iml" filepath="$PROJECT_DIR$/consumer-service/consumer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/event-driven-microservice-example.iml" filepath="$PROJECT_DIR$/.idea/event-driven-microservice-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/producer-service/producer-service.iml" filepath="$PROJECT_DIR$/producer-service/producer-service.iml" />
+    </modules>
+  </component>
+</project>
